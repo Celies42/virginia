@@ -1,0 +1,184 @@
+* {text-align: left;
+margin: 0 auto;
+font-family: Verdana, Tahoma, Trebuchet;}
+
+main {background-color: /*#aa1f22 #312a39*/ #352941;
+
+margin-left:  auto;
+margin-right:  auto;
+width: 100%;
+color: #dacce9; 
+animation: fadeInAnimation ease 3s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+
+}
+
+a {text-decoration: none;
+color: #d4d5d9;}
+
+/*animation when page opens*/
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+} 
+
+
+/*scroll with static image in the bg*/
+.parallax {
+  /* The image used */
+  background-image: url("palett4.jpg");
+  padding-top: 150px;
+
+
+
+
+  /* Set a specific height */
+  min-height: 550px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: -top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.titel {min-height: 50px;
+width: 750px;
+   background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+
+}
+
+/*Title Virginia Tertuliano Konstnär från Brasilien*/
+h1 {text-align: center ;
+
+font-family: 'Roboto Slab', serif;
+font-size: 70px;
+color: #ece2ef ;
+text-shadow: 1px 1px 1px #302c3a;
+}
+
+h2 {text-align: center ;
+
+font-family: 'Roboto Slab', serif;
+font-size: 50px;
+color: #ece2ef;
+text-shadow: 1px 1px 1px #302c3a;
+}
+
+.cell {min-height: 150px;
+width: 710px;
+min-width: 200px;
+   background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 50px;
+    padding-bottom:50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.länk {
+   min-height: 30px;
+width: 710px;
+min-width: 200px;
+    background-color: black;
+text-align: center;
+ padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    color:  #d4d5d9;
+
+
+}
+
+.länk:hover {background:#931a23;
+cursor: pointer;}
+
+.gallery:hover {
+   -webkit-transition: background-image 0.2s ease-in-out;
+transition: background-image 0.2s ease-in-out;
+background-image: url("palett3.jpg");
+        opacity:  0.3;
+
+}
+
+.gallery {height: 150px;
+width: 710px;
+
+   background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 50px;
+    padding-bottom:50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+      margin-botttom: 25px;
+    transition: width 3s;
+    background-image: url("klovn.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+        transition: width 3s;
+
+   
+}
+
+.om {height: 150px;
+width: 710px;
+
+   background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 50px;
+    padding-bottom:50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+      margin-botttom: 25px;
+    transition: width 3s;
+    background-image: url("virginia-om.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+       
+   
+}
+
+.kontakt {height: 150px;
+width: 710px;
+
+   background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 50px;
+    padding-bottom:50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-botttom: 25px;
+    transition: width 3s;
+    background-image: url("gallery.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+       
+}
+
+
+/*-- OM --*/
+
+.text {
+width: 710px;
+min-width: 200px;
+   background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 50px;
+    padding-bottom:50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+#CV {height: 350px;
+width: 250px;
+float: right;
+margin: 5px;}
